@@ -160,7 +160,7 @@ class _TokenConfirmationState extends State<TokenConfirmation> {
                                             if (await userType(context)==user_type.RESIDENT){
                                           Navigator.pushReplacementNamed(context, '/welcome-resident');
                                             } else{
-                                              Navigator.pushReplacementNamed(context, '/gateman_menu');
+                                              Navigator.pushReplacementNamed(context, '/menu');
                                             }
 
                                           }} 
