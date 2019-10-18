@@ -31,7 +31,11 @@ class _GatemanWelcomeState extends State<GatemanWelcome> {
               Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Text('You have', style: TextStyle(color: Colors.black54, fontSize: 17.0, fontWeight: FontWeight.bold )),
+<<<<<<< HEAD
                   InkWell(onTap: (){Navigator.pushReplacementNamed(context, '/gateman-notifications');},
+=======
+                  InkWell(onTap: (){Navigator.pushReplacementNamed(context, '/gateman');},
+>>>>>>> 5234b88223c52c3c381cc6f25c57a66635e2fe3e
                     child: Text(' $invitations invitations ', style: TextStyle(color: GateManColors.primaryColor, fontSize: 17.0, fontWeight: FontWeight.bold),)
                     ),
                   

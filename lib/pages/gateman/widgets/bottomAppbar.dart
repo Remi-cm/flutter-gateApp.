@@ -32,7 +32,10 @@ class CustomBottomAppBar extends StatelessWidget {
                   ],
                 ),
               ),
+<<<<<<< HEAD
               
+=======
+>>>>>>> 5234b88223c52c3c381cc6f25c57a66635e2fe3e
               InkWell(onTap: (){Navigator.pushReplacementNamed(context, '/gateman-notifications');},
                 child: Column(
                   children: <Widget>[
