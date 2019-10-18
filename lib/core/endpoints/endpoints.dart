@@ -10,5 +10,4 @@ class Endpoint {
   static String verifyAccount = '/verify';
   static String passwordVerify = '/password/verify';
   static String passwordReset = '/password/reset';
-  static String gatemanNotif = '/gateman/requests';
 }
