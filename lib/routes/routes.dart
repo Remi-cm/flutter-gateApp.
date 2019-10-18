@@ -5,7 +5,14 @@ import 'package:gateapp/pages/Add_Estate.dart';
 import 'package:gateapp/pages/Pager/pager.dart';
 import 'package:gateapp/pages/add_gateman.dart';
 import 'package:gateapp/pages/add_visitor.dart';
+<<<<<<< HEAD
 import 'package:gateapp/pages/gateman/qrScan.dart';
+=======
+import 'package:gateapp/pages/gateman/menu.dart';
+import 'package:gateapp/pages/gateman/residents.dart';
+import 'package:gateapp/pages/gateman/scheduledVisit.dart';
+import 'package:gateapp/pages/gateman/visitors.dart';
+>>>>>>> 5234b88223c52c3c381cc6f25c57a66635e2fe3e
 import 'package:gateapp/pages/notification_resident.dart';
 import 'package:gateapp/pages/registration/token_confirmation.dart';
 import 'package:gateapp/pages/resident/add_gateman/add_gateman_detail.dart';
@@ -159,7 +166,13 @@ class Routes {
         
       case '/resident-notifications':
         return MaterialPageRoute(builder: (context) => NotificationResident());
+<<<<<<< HEAD
 
+=======
+      
+      case '/resident-notifications':
+        return MaterialPageRoute(builder: (context) => NotificationResident());
+>>>>>>> 5234b88223c52c3c381cc6f25c57a66635e2fe3e
       
       case '/residents-gate':
         return MaterialPageRoute(builder: (context) => ResidentsGate());
@@ -172,6 +185,7 @@ class Routes {
       
       case '/visitors-list':
         return MaterialPageRoute(builder: (context) => VisitorsList());
+<<<<<<< HEAD
       
       case '/qrReader':
         return MaterialPageRoute(builder: (context) => ScanQRCode2());
@@ -179,6 +193,8 @@ class Routes {
 
       case '/add-gateman-detail':
         return MaterialPageRoute(builder: (context) => AddGateManDetail());
+=======
+>>>>>>> 5234b88223c52c3c381cc6f25c57a66635e2fe3e
 
       default:
         return MaterialPageRoute(

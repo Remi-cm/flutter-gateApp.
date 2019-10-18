@@ -10,8 +10,11 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 import 'menu.dart';
 
 class ScheduledVisit extends StatefulWidget {
+<<<<<<< HEAD
   final String name, phone, description, eta, verification, visitStatus;
   ScheduledVisit({this.name, this.phone, this.description, this.eta, this.verification, this.visitStatus});
+=======
+>>>>>>> 5234b88223c52c3c381cc6f25c57a66635e2fe3e
   
   @override
   _ScheduledVisitState createState() => _ScheduledVisitState();
